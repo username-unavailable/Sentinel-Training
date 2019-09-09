@@ -1,6 +1,6 @@
 import "tfplan"
 
-allowed_sizes = ["t2.micro"]
+allowed_sizes = ["t2.medium"]
 
 # Get all AWS instances contained in all modules being used
 get_aws_instances = func() {
